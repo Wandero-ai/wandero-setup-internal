@@ -1,16 +1,14 @@
 # Wandero Setup
 
-Setup instructions for AI coding agents (Windsurf, Cursor, Claude Code, etc.)
+Onboarding guide for AI coding agents (Windsurf, Cursor, Antigravity, etc.)
 
-## Usage
+## For New Users
 
-Paste this repo URL into your AI agent to set up Wandero:
+1. **Get GitHub access** — Ask your admin to invite you to the Wandero-ai org
+2. **Install an AI tool** — [Antigravity](https://antigravity.so) (non-devs) or [Windsurf](https://codeium.com/windsurf) (devs)
+3. **Paste this URL** into your AI tool: `https://github.com/Wandero-ai/wandero-setup-internal`
 
-```
-https://github.com/Wandero-ai/wandero-setup-internal
-```
-
-The agent will read [AGENTS.md](AGENTS.md) and clone the appropriate repos based on your GitHub permissions.
+The agent will guide you through the rest.
 
 ## What Gets Cloned
 
@@ -18,8 +16,12 @@ The agent will read [AGENTS.md](AGENTS.md) and clone the appropriate repos based
 git clone --recurse-submodules https://github.com/Wandero-ai/wandero.git
 ```
 
-| Your Access | What You See |
-|-------------|--------------|
-| Everyone | `wandero/` — overviews, public docs |
-| Team | `wandero/team/` — processes, playbooks |
-| Admin | `wandero/team/admin/` — records, financials |
+| Your Team | What You See |
+|-----------|--------------|
+| Everyone | `wandero/` — overviews |
+| `team` | `wandero/team/` — processes |
+| `admins` | `wandero/team/admin/` — records |
+
+## For AI Agents
+
+See [AGENTS.md](AGENTS.md) for full setup instructions.
