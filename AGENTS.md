@@ -67,7 +67,26 @@ After cloning, check what folders are visible:
 
 ---
 
-## Step 5: Get Started
+## Step 5: Clone Admin Repo (Admins Only)
+
+If the user is in the `admins` GitHub team, they also have access to `wandero-admin`:
+
+```bash
+git clone --recurse-submodules https://github.com/Wandero-ai/wandero-admin.git
+cd wandero-admin
+```
+
+**What's in wandero-admin:**
+- Partnerships and strategic documents
+- Product sprints and roadmap
+- Projects and experiments
+- Internal operations
+
+Skip this step if the user is not an admin or doesn't need admin-level access.
+
+---
+
+## Step 6: Get Started
 
 1. Read `AGENTS.md` in the cloned wandero repo for detailed instructions
 2. Start with `_index.md` files in each domain for overviews
